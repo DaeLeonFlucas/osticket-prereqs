@@ -24,9 +24,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install / Enable IIS in Windows WITH CGI
 - install PHP Manager for IIS
-- Create the directory C:\PHP
 - install VC_redist.x86.exe
 - install MySQL 5.5.62
+- Install osTicket v1.15.8
 
 <h2>Installation Steps</h2>
 
