@@ -29,7 +29,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - [Link to Downloads](https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 <h2>Installation Steps</h2>
-
 <br /><h2>Step 1 - Create an Azure Virtual Machine and Resource Group</h2>
 <p> Start with the creation of an Azure Virtual Machine alongside a Resource Group. Access the Azure Portal and proceed to create a new Virtual Machine. Establish a new Resource Group and give it a suitable name.</p>
 <p>
