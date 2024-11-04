@@ -194,7 +194,7 @@ After completing the steps, restart the IIS server.
 
 <br /><h2>Step 8 - Download and install osTicket</h2>
 <p>
-Download the zip file named 'osTicket-v1.15.8'. After downloading, extract the 'upload' folder from the zip file into 'c:\inetpub\wwwroot'. Next, rename the 'upload' folder to 'osTicket'.
+First, download the zip file labeled ‘osTicket-v1.15.8’. Afterward, unpack the file and place the extracted ‘upload’ folder into ‘c:\inetpub\wwwroot’. Rename this folder from ‘upload’ to ‘osTicket’.
 </p>
 <p>
 <img src="https://imgur.com/OaICJQD.png" height="70%" width="70%" alt="Resources"/>
@@ -203,7 +203,7 @@ Download the zip file named 'osTicket-v1.15.8'. After downloading, extract the '
 <img src="https://imgur.com/wNBcanU.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-After finishing, return to IIS and restart it again. Go to sites -> Default -> osTicket, and then on the right side of the IIS Manager window, click on 'Browse *:80'. This action will launch your web browser and show the osTicket installer.
+After finishing, reopen IIS and restart the service. Head to Sites, choose Default, then osTicket. On the right side of the IIS Manager, click on ‘Browse *:80’, which will launch your browser and bring up the osTicket installation screen.
 </p>
 <p>
 <img src="https://imgur.com/dWxMo7h.png" height="70%" width="70%" alt="Resources"/>
@@ -217,7 +217,7 @@ After finishing, return to IIS and restart it again. Go to sites -> Default -> o
 
 <br /><h2>Step 9 - Enable osTicket Extensions</h2>
 <p>
-To enable the necessary extensions, go back to the IIS manager, navigate to sites -> Default -> osTicket, then double click on 'PHP Manager'. Under 'PHP Extensions', click on 'Enable or disable an extension'.
+To activate the required extensions, return to the IIS manager, go to Sites -> Default -> osTicket, and double-click PHP Manager. In the PHP Extensions section, select ‘Enable or disable an extension’.
 </p>
 <p>
 <img src="https://imgur.com/5UDDMoK.png" height="70%" width="70%" alt="Resources"/>
@@ -226,7 +226,7 @@ To enable the necessary extensions, go back to the IIS manager, navigate to site
 <img src="https://imgur.com/dLDGji8.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-ETurn on the following extensions:
+Turn on the following extensions:
 	
 - php_imap.dll
 - php_intl.dll
@@ -248,13 +248,13 @@ Go to 'C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php'. Change the nam
 <img src="https://imgur.com/FccMkNC.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-After renaming the file, right-click on 'ost-config.php' and select 'Properties', click on 'Security', then select 'Advanced', and turn off inheritance to eliminate all inherited permissions.
+Once the file is renamed, right-click on ‘ost-config.php’, choose ‘Properties’, go to the ‘Security’ tab, click on ‘Advanced’, and disable inheritance to remove all inherited permissions.
 </p>
 <p>
 <img src="https://imgur.com/i8jKtdF.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Then click 'Add' followed by 'Select a principal'. Type 'everyone' in the text field and confirm that all permissions are checked. Press 'OK', then click 'Apply', and finally hit 'OK' again
+Next, click ‘Add’ and select ‘Choose a principal’. Enter ‘everyone’ in the field, ensure that all permission boxes are checked, then click ‘OK’. Afterward, select ‘Apply’ and finish by clicking ‘OK’ again.
 </p>
 <p>
 <img src="https://imgur.com/c025Ek8.png" height="70%" width="70%" alt="Resources"/>
@@ -275,7 +275,7 @@ Then click 'Add' followed by 'Select a principal'. Type 'everyone' in the text f
 
 <br /><h2>Step 11 - Download and install HeidiSQL</h2>
 <p>
-Download and install HeidiSQL. Once you have completed the setup wizard for HeidiSQL, the program will open. Select 'New' on the bottom left. Make sure the username is root and the password is 'Password1' then click 'Open'.
+Begin by downloading and installing HeidiSQL. Once the setup process is finished, open the program. Click ‘New’ in the lower-left corner, enter ‘root’ as the username and ‘Password1’ as the password, then choose ‘Open’.
 </p>
 <p>
 <img src="https://imgur.com/z6e86F9.png" height="70%" width="70%" alt="Resources"/>
