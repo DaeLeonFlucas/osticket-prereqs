@@ -50,7 +50,7 @@ Configure the virtual machine to run Windows 10 Pro, version 22H2. We will confi
 
 <br /><h2>Step 2 - Remote Desktop to the Virtual Machine</h2>
 <p>
-Go to the newly created Virtual Machine in the Azure Portal locate the Public IP Address and copy it. On your local machine, open "Remote Desktop Connection" and input the copied IP address. Log in using the credentials set up during the VM creation.
+Access the new Virtual Machine in the Azure Portal, identify the Public IP Address, and copy it. Launch "Remote Desktop Connection" on your local machine and enter the copied IP address. Sign in with the credentials you created during the VM setup.
 </p>
 <p>
 <img src="https://imgur.com/Gysrja1.png" height="35%" width="35%" alt="Resources"/>
@@ -66,7 +66,7 @@ Go to the newly created Virtual Machine in the Azure Portal locate the Public IP
 
 <br /><h2>Step 3 - Install / Enable IIS in Windows with CGI and Common HTTP Features</h2>
 <p>
-Once inside the Virtual Machine, open up the control panel and select 'Programs'. From there, select 'Turn Windows Features on and off'. 
+After accessing the Virtual Machine, launch the Control Panel and choose 'Programs'. Next, click on 'Turn Windows Features on and off'. 
 </p>
 <p>
 <img src="https://imgur.com/xmOrou5.png" height="70%" width="70%" alt="Resources"/>
@@ -75,7 +75,7 @@ Once inside the Virtual Machine, open up the control panel and select 'Programs'
 <img src="https://imgur.com/t59Rt51.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-To install/enable IIS in Windows with CGI and Common HTTP Features, make sure the correct options are selected.
+To enable IIS on Windows along with CGI and Common HTTP Features, ensure that the appropriate options are chosen.
 
 World Wide Web Services -> Application Development Features -> [X] CGI [X] Common HTTP Features
 
@@ -89,7 +89,7 @@ Internet Information Services -> Web Management Tools -> IIS Management Console
 <img src="https://imgur.com/h83r69D.png" height="35%" width="35%" alt="Resources"/>
 </p>
 <p>
-Once all the correct checkboxes have been selected, click ok to apply the changes. To confirm the changes have been properly applied, open the web browser and type '127.0.0.1' into the search bar and it should present the 'Internet Information Services' page displayed below.
+Once all the correct checkboxes have been selected, click ok to apply the changes. To check if the changes were applied correctly, launch a web browser and input '127.0.0.1' into the search bar, which should display the 'Internet Information Services' page below.
 </p>
 <p>
 <img src="https://imgur.com/XFqN4S9.png" height="70%" width="70%" alt="Resources"/>
@@ -97,7 +97,7 @@ Once all the correct checkboxes have been selected, click ok to apply the change
 
 
 
-<br /><h2>Step 4 - Download and Install PHP Manager for IIS, the Rewrite Module, and Microsoft Visual C++ Redistributable</h2>
+<br /><h2>Step 4 - Install PHP Manager for IIS, along with the Rewrite Module and Microsoft Visual C++ Redistributable.</h2>
 <p>
 From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Downloads</a>, download the files 'PHPManagerForIIS_V1.5.0.msi', 'rewrite_amd64_en-US.msi', and 'VC_redist.x86.exe'. After they have been downloaded, install all three onto the virtual machine.
 </p>
