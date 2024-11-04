@@ -194,7 +194,7 @@ After completing the steps, restart the IIS server.
 
 <br /><h2>Step 8 - Download and install osTicket</h2>
 <p>
-Download the 'osTicket-v1.15.8' zip file. Once downloaded, extract the 'upload' folder within the zip file to the folder 'c:\inetpub\wwwroot'. Then rename the 'upload' folder to 'osTicket'.
+Download the zip file named 'osTicket-v1.15.8'. After downloading, extract the 'upload' folder from the zip file into 'c:\inetpub\wwwroot'. Next, rename the 'upload' folder to 'osTicket'.
 </p>
 <p>
 <img src="https://imgur.com/OaICJQD.png" height="70%" width="70%" alt="Resources"/>
@@ -203,7 +203,7 @@ Download the 'osTicket-v1.15.8' zip file. Once downloaded, extract the 'upload' 
 <img src="https://imgur.com/wNBcanU.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once complete, go back into IIS and restart it once more. Navigate to sites -> Default -> osTicket, then on the right side of the IIS manager window, select 'Browse *:80'. This will open up your web browser and display the osTicket installer.
+After finishing, return to IIS and restart it again. Go to sites -> Default -> osTicket, and then on the right side of the IIS Manager window, click on 'Browse *:80'. This action will launch your web browser and show the osTicket installer.
 </p>
 <p>
 <img src="https://imgur.com/dWxMo7h.png" height="70%" width="70%" alt="Resources"/>
@@ -226,7 +226,7 @@ To enable the necessary extensions, go back to the IIS manager, navigate to site
 <img src="https://imgur.com/dLDGji8.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Enable the following extensions:
+ETurn on the following extensions:
 	
 - php_imap.dll
 - php_intl.dll
@@ -236,25 +236,25 @@ Enable the following extensions:
 <img src="https://imgur.com/aKDapBY.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once done, refresh the osTicket installer and observe the changes. 
+ After completing the steps, refresh the osTicket installer to see the changes.
 </p>
 
 
 <br /><h2>Step 10 - Rename ost-config.php and Assign Permissions</h2>
 <p>
-Navigate to 'C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php'. Rename the 'ost-sampleconfig.php' to 'ost-config.php'.
+Go to 'C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php'. Change the name of 'ost-sampleconfig.php' to 'ost-config.php'.
 </p>
 <p>
 <img src="https://imgur.com/FccMkNC.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once the file has been renamed, right-click on 'ost-config.php' and go to 'Properties' then click 'Security', click on advance, and disable the inheritance to remove all inheritance permissions.
+After renaming the file, right-click on 'ost-config.php' and select 'Properties', click on 'Security', then select 'Advanced', and turn off inheritance to eliminate all inherited permissions.
 </p>
 <p>
 <img src="https://imgur.com/i8jKtdF.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Next click 'Add', then 'Select a principal'. In the textbox, type 'everyone' and ensure all permissions are checked. Click 'OK', then 'Apply' and 'OK' again.
+Then click 'Add' followed by 'Select a principal'. Type 'everyone' in the text field and confirm that all permissions are checked. Press 'OK', then click 'Apply', and finally hit 'OK' again
 </p>
 <p>
 <img src="https://imgur.com/c025Ek8.png" height="70%" width="70%" alt="Resources"/>
