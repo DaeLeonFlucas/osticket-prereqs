@@ -284,7 +284,7 @@ Begin by downloading and installing HeidiSQL. Once the setup process is finished
 <img src="https://imgur.com/9wd9nQQ.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once you have clicked open, a new instance of HeidiSQL will open. Right-click 'Unnamed' and select 'Create new', then 'Database'. Name the new database 'osTicket', then hit 'OK'.
+After clicking ‘Open’, a new HeidiSQL instance will appear. Right-click on ‘Unnamed’, choose ‘Create new’, then select ‘Database’. Enter ‘osTicket’ as the database name, and press ‘OK’.
 </p>
 <p>
 <img src="https://imgur.com/21RPVtH.png" height="70%" width="70%" alt="Resources"/>
@@ -296,46 +296,23 @@ Once you have clicked open, a new instance of HeidiSQL will open. Right-click 'U
 
 <br /><h2>Step 12 - Finish osTicket Setup</h2>
 <p>
-Once you have completed the HeidiSQL setup, we can now go back to the osTicket webpage and click 'Continue'. Fill out the necessary fields under 'System Settings', 'Admin User', and 'Database Settings'.
+After finishing the HeidiSQL setup, return to the osTicket webpage and select ‘Continue’. Complete the required fields under ‘System Settings’, ‘Admin User’, and ‘Database Settings’.
 
- For this lab, the 'Helpdesk Name' is 'Lab Help Desk', and the default email is 'lab<span>@</span>helpdesk.com' 
+In this lab, use ‘Lab Help Desk’ as the ‘Helpdesk Name’ and set the default email to ‘lab@helpdesk.com’. 
 
- Under 'Admin User', input a 'First Name' (i.e. user), 'Last Name' (i.e. admin), 'Email Address' (i.e. user_admin<span>@</span>helpdesk.com), 'Username' (i.e. user_admin), and 'Password' (i.e. Password1). 
+For the ‘Admin User’ details, fill in the ‘First Name’ (such as user), ‘Last Name’ (such as admin), ‘Email Address’ (for example, user_admin@helpdesk.com), ‘Username’ (like user_admin), and ‘Password’ (for instance, Password1). 
 
- Under 'Database Settings', make sure the 'MySQL Database' name is 'osTicket', the 'MySQL Username' is 'root', and the 'MySQL Password' is 'Password1'.
+For ‘Database Settings’, confirm that the ‘MySQL Database’ name is ‘osTicket’, the ‘MySQL Username’ is ‘root’, and the ‘MySQL Password’ is ‘Password1’.
 
- Once all the fields have been filled out, click on 'Install Now'.
+After completing all the fields, click on ‘Install Now’ to proceed.
 </p>
 <p>
 <img src="https://imgur.com/m7DFiwF.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once complete, osTicket should be successfully installed! Congratulations!
+Once the process is finished, osTicket should be successfully set up! Congratulations!
 </p>
 <p>
 <img src="https://imgur.com/FEE32n7.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Notes:
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
-End Users osTicket URL: http://localhost/osTicket/ 
-</p>
-
-<br /><h2>Step 13 - Clean Up</h2>
-<p>The final step is to do some cleanup. Delete the folder 'C:\inetpub\wwwroot\osTicket\setup'. 
-	
-Then set 'Permissions' to "Read" and "Read and Execute" on C:\inetpub\wwwroot\osTicket\include\ost-config.php for 'Everyone':
-- Right-click on 'ost-config.php', click on 'Properties', then the 'Security' tab.
-- Click 'Advanced', then 'Edit' the permissions for 'Everyone'. Uncheck all the boxes except for 'Read & Execute' and 'Read', then click 'OK'.
-</p>
-<p>
-<img src="https://imgur.com/i60h0qN.png" height="70%" width="70%" alt="Resources"/>
-</p>
-<p>
-<img src="https://imgur.com/GNQiAkv.png" height="70%" width="70%" alt="Resources"/>
-</p>
-<p>
-This concludes the prerequisite installations for osTicket!
-
-To continue exploring osTicket and set up accounts and users, head over to [osTicket: Post-Installation Configuration](https://github.com/andrewkhun/post-install-config)
-</p>
