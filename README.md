@@ -99,7 +99,7 @@ Once all the correct checkboxes have been selected, click ok to apply the change
 
 <br /><h2>Step 4 - Install PHP Manager for IIS, along with the Rewrite Module and Microsoft Visual C++ Redistributable.</h2>
 <p>
-From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Downloads</a>, download the files 'PHPManagerForIIS_V1.5.0.msi', 'rewrite_amd64_en-US.msi', and 'VC_redist.x86.exe'. After they have been downloaded, install all three onto the virtual machine.
+From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Link to Files</a>, Download the following files: 'PHPManagerForIIS_V1.5.0.msi', 'rewrite_amd64_en-US.msi', and 'VC_redist.x86.exe'. Once the files are downloaded, proceed to install all three on the virtual machine.
 </p>
 <p>
 <img src="https://imgur.com/ArPd1UX.png" height="35%" width="35%" alt="Resources"/>
@@ -122,7 +122,7 @@ From the <a href="https://drive.google.com/drive/folders/1APMfNyfNzcxZC6EzdaNfdZ
 Locate the 'php-7.3.8-nts-Win32-VC15-x86.zip' file and download it. 
 
 !! ATTENTION !!
-If this appears, choose to “Keep” the file:
+If you see this message, select “Keep” to retain the file:
 </p>
 <p>
 <img src="https://imgur.com/B9yxJvO.png" height="35%" width="35%" alt="Resources"/>
@@ -131,7 +131,7 @@ If this appears, choose to “Keep” the file:
 <img src="https://imgur.com/AxzgeXG.png" height="35%" width="35%" alt="Resources"/>
 </p>
 <p>
-Next head into the C:\ directory, create a folder, and name it 'PHP'. Unzip the contents of the 'php-7.3.8-nts-Win32-VC15-x86.zip' file into the new PHP directory C:\PHP.
+Next, navigate to the C:\ directory, create a new folder, and name it 'PHP'. Extract the contents of the 'php-7.3.8-nts-Win32-VC15-x86.zip' file into the newly created C:\PHP directory.
 </p>
 <p>
 <img src="https://imgur.com/QjLTS57.png" height="70%" width="70%" alt="Resources"/>
@@ -145,7 +145,7 @@ Next head into the C:\ directory, create a folder, and name it 'PHP'. Unzip the 
 
 <br /><h2>Step 6 - Download and Install MySQL5.5.62</h2>
 <p>
-Locate the 'mysql-5.5.62-win32.msi' file and download it. Once downloaded Run the setup wizard: Typical Setup -> Launch Configuration Wizard (after install) -> Standard Configuration -> make the root password 'Password1' and finally select 'Execute' and 'Finish' once complete.
+Find the 'mysql-5.5.62-win32.msi' file and download it. Once the download is complete, start the setup wizard: choose Typical Setup -> Launch Configuration Wizard (post-installation) -> Standard Configuration. Assign 'Password1' as the root password, then click 'Execute' and 'Finish' when finished.
 </p>
 <p>
 <img src="https://imgur.com/bonUtb3.png" height="35%" width="35%" alt="Resources"/>
@@ -166,25 +166,25 @@ Locate the 'mysql-5.5.62-win32.msi' file and download it. Once downloaded Run th
 
 <br /><h2>Step 7 - Register PHP from within IIS</h2>
 <p>
-Now that we have the files downloaded and installed we will want to search for IIS in the Windows search bar. Open IIS as an administrator. Select the 'PHP Manager'
+With the files downloaded and installed, search for IIS in the Windows search bar. Launch IIS with administrative privileges. Click on 'PHP Manager' to access it.
 </p>
 <p>
 <img src="https://imgur.com/WP7tgMH.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Select 'Register new PHP Version'
+Choose 'Register new PHP Version'.
 </p>
 <p>
 <img src="https://imgur.com/BdvpC3A.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Provide a path to the php executable 'php-cgi.exe'. The file is located in our PHP directory 'C:\PHP'. After the file path has been selected, click 'OK'.
+Specify the path for the PHP executable 'php-cgi.exe'. This file can be found in the PHP directory at 'C:\PHP'. Once you have selected the file path, click 'OK'.
 </p>
 <p>
 <img src="https://imgur.com/OfcKCDT.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Once done, restart the IIS server.
+After completing the steps, restart the IIS server.
 </p>
 <p>
 <img src="https://imgur.com/3yoQJba.png" height="70%" width="70%" alt="Resources"/>
