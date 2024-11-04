@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <br /><h2>Step 1 - Create an Azure Virtual Machine and Resource Group</h2>
-<p>The first step is to create an Azure Virtual Machine and Resource Group. Navigate to the Azure Portal and create a Virtual Machine. Ensure you create a new Resource Group and name it accordingly.</p>
+<p> Start with the creation of an Azure Virtual Machine alongside a Resource Group. Access the Azure Portal and proceed to create a new Virtual Machine. Establish a new Resource Group and give it a suitable name.</p>
 <p>
 <img src="https://imgur.com/uRuN09F.png" height="70%" width="70%" alt="Create Azure Virtual Machine"/>
 </p>
@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/DzckhoM.png" height="70%" width="70%" alt="Resources"/>
 </p>
 <p>
-Set up the virtual machine with Windows 10 Pro, version 22H2. For this particular deployment, we will specify 4 vCPUs and 16 GiB of RAM. Create your login credentials to access the virtual machine. Ensure the licensing box is checked off and that a virtual network has been created in the Networking Tab. After everything has been specified go to 'Review + Create' and create the virtual machine. 
+Configure the virtual machine to run Windows 10 Pro, version 22H2. We will configure the deployment with 4 vCPUs and 16 GiB of RAM. Set up your login credentials to gain access to the virtual machine. Confirm that the licensing checkbox is ticked and that a virtual network exists in the Networking Tab.  Once all specifications are completed, navigate to 'Review + Create' and proceed to create the virtual machine. 
 </p>
 <br />
 
